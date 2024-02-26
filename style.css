@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+main {
+  margin: 20px 20px;
+}
+
+.hero-image {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: #444;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  gap: 20px;
+}
+
+svg {
+  width: 30px;
+  color: black;
+}
