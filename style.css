@@ -17,12 +17,6 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
 header,
 main,
 footer {
@@ -91,18 +85,41 @@ svg {
   color: black;
 }
 
-main h2 {
-  margin-bottom: 30px;
+.topH2 {
+  margin-top: 0;
 }
 
 section {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 article {
   box-shadow: 1px 1px 10px #444;
+}
+
+.languagesAndTools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.languagesAndTools article {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+  width: 115px;
+  text-align: center;
+}
+
+.languagesAndTools img {
+  width: 50px;
+}
+
+.projects {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .project-description {
@@ -123,7 +140,7 @@ article {
 }
 
 .contact {
-  padding: 30px 0 30px 50px;
+  padding: 30px 50px 30px 50px;
 }
 
 .phone-and-email {
