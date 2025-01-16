@@ -80,6 +80,11 @@ p {
   gap: 20px;
 }
 
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
 svg {
   width: 30px;
   color: black;
@@ -89,21 +94,18 @@ svg {
   margin-top: 0;
 }
 
-section {
-  display: grid;
-  gap: 30px;
-}
-
 article {
   box-shadow: 1px 1px 10px #444;
 }
 
-.languagesAndTools {
+.language-list,
+.tool-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
-.languagesAndTools article {
+.languages-and-tools article {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -114,12 +116,15 @@ article {
   text-align: center;
 }
 
-.languagesAndTools img {
+.languages-and-tools img {
   width: 50px;
+  height: 50px;
 }
 
 .projects {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 .project-description {
@@ -143,12 +148,16 @@ article {
   padding: 30px 50px 30px 50px;
 }
 
-.phone-and-email {
+.email {
   margin: 0 0 20px 0;
   display: grid;
   grid-template-columns: max-content max-content;
   align-items: center;
   gap: 10px;
+}
+
+footer a {
+  color: black;
 }
 
 @media (min-width: 600px) {
@@ -177,6 +186,12 @@ article {
 
   h3 {
     justify-self: start;
+  }
+
+  .languages-and-tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 
   .contact {
