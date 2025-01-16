@@ -8,11 +8,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#"><button>Home</button></a>
+        </li>
+        <li>
+          <a href="#languages-and-tools"
+            ><button>Languages and Tools</button></a
+          >
+        </li>
+        <li>
+          <a href="#work"><button>My Work</button></a>
+        </li>
+        <li>
+          <a href="./resume.html"><button>My Resume</button></a>
+        </li>
+        <li>
+          <a href="#contact"><button>Contact Me</button></a>
+        </li>
+      </ul>
+    </nav>
     <div class="header-wrap">
       <header>
         <div class="hero-image">
-          <img src="" alt="image coming soon" />
-          <h1>Kyle Dinardi</h1>
+          <img src="" alt="Image coming soon" />
+          <h1 class="kyle">Kyle Dinardi</h1>
         </div>
         <div class="hero-content">
           <h2>About me</h2>
@@ -43,7 +64,7 @@
     </div>
     <div class="main-wrap">
       <main>
-        <h2 class="topH2">Languages and Tools</h2>
+        <h2 class="topH2" id="languages-and-tools">Languages and Tools</h2>
         <section class="languages-and-tools">
           <div>
             <h3>Languages I use</h3>
@@ -169,7 +190,7 @@
             </div>
           </div>
         </section>
-        <h2>My work</h2>
+        <h2 id="work">My work</h2>
         <section class="projects">
           <article>
             <img
@@ -458,7 +479,7 @@
     </div>
     <div class="footer-wrap">
       <footer>
-        <div class="contact">
+        <div id="contact">
           <h2>Contact Me</h2>
           <p class="contact-message">
             Give me a call, text, or email if you think I'm right for your
