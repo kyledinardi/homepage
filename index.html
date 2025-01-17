@@ -8,31 +8,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="#"><button>Home</button></a>
-        </li>
-        <li>
-          <a href="#languages-and-tools"
-            ><button>Languages and Tools</button></a
-          >
-        </li>
-        <li>
-          <a href="#work"><button>My Work</button></a>
-        </li>
-        <li>
-          <a href="./resume.html"><button>My Resume</button></a>
-        </li>
-        <li>
-          <a href="#contact"><button>Contact Me</button></a>
-        </li>
-      </ul>
-    </nav>
     <div class="header-wrap">
       <header>
         <div class="hero-image">
-          <img src="" alt="Image coming soon" />
+          <img src="./img/kyle.webp" alt="Photo of Kyle" />
           <h1 class="kyle">Kyle Dinardi</h1>
         </div>
         <div class="hero-content">
@@ -41,8 +20,12 @@
             I'm a self taught full stack web developer. I specialize in React
             for frontend and Express.js and PostgreSQL for backend. I was helped
             immensely by a wonderful website called
-            <a href="https://www.theodinproject.com/">The Odin Project</a>.
+            <a href="https://www.theodinproject.com/">The Odin Project.</a>
           </p>
+          <a href="./resume.html">
+            <button class="resume-button">See my resume</button>
+          </a>
+          <h2></h2>
           <div class="icons">
             <a href="https://github.com/kyledinardi">
               <img
@@ -64,7 +47,7 @@
     </div>
     <div class="main-wrap">
       <main>
-        <h2 class="topH2" id="languages-and-tools">Languages and Tools</h2>
+        <h2 class="topH2">Languages and Tools</h2>
         <section class="languages-and-tools">
           <div>
             <h3>Languages I use</h3>
@@ -92,17 +75,6 @@
               </article>
               <article>
                 <img
-                  src="./img/svg/sql-database-generic-svgrepo-com.svg"
-                  alt="SQL logo"
-                />
-                <span>SQL</span>
-              </article>
-              <article>
-                <img src="./img/svg/Bash_Logo_Colored.svg" alt="Bash logo" />
-                <span>Bash</span>
-              </article>
-              <article>
-                <img
                   class="icon"
                   src="./img/svg/pugjs-icon.svg"
                   alt="Pug logo"
@@ -113,11 +85,26 @@
                 <img src="./img/svg/ejs-svgrepo-com.svg" alt="EJS logo" />
                 <span>EJS</span>
               </article>
+              <article>
+                <img
+                  src="./img/svg/sql-database-generic-svgrepo-com.svg"
+                  alt="SQL logo"
+                />
+                <span>SQL</span>
+              </article>
+              <article>
+                <img src="./img/svg/Bash_Logo_Colored.svg" alt="Bash logo" />
+                <span>Bash</span>
+              </article>
             </div>
           </div>
           <div>
             <h3>Tools I use</h3>
             <div class="tool-list">
+              <article>
+                <img src="./img/svg/vscode.svg" alt="VS Code logo" />
+                <span>VS Code </span>
+              </article>
               <article>
                 <img
                   src="./img/svg/git-icon-logo-svgrepo-com.svg"
@@ -131,21 +118,6 @@
                   alt="GitHub logo"
                 />
                 <span>GitHub</span>
-              </article>
-              <article>
-                <img src="./img/svg/Tux.svg" alt="Linux logo" />
-                <span>Linux</span>
-              </article>
-              <article>
-                <img src="./img/svg/vscode.svg" alt="VS Code logo" />
-                <span>VS Code </span>
-              </article>
-              <article>
-                <img
-                  src="./img/svg/react-logo-svgrepo-com.svg"
-                  alt="React logo"
-                />
-                <span>React</span>
               </article>
               <article>
                 <img src="./img/svg/nodejs-icon.svg" alt="Node.js logo" />
@@ -175,10 +147,18 @@
               </article>
               <article>
                 <img
-                  src="./img/svg/cloudflare-icon.svg"
-                  alt="Cloudflare logo"
+                  src="./img/svg/react-logo-svgrepo-com.svg"
+                  alt="React logo"
                 />
-                <span>Cloudflare</span>
+                <span>React</span>
+              </article>
+              <article>
+                <img src="./img/svg/Vitejs-logo.svg" alt="Vite logo" />
+                <span>Vite</span>
+              </article>
+              <article>
+                <img src="./img/svg/Tux.svg" alt="Linux logo" />
+                <span>Linux</span>
               </article>
               <article>
                 <img
@@ -187,10 +167,17 @@
                 />
                 <span>Heroku</span>
               </article>
+              <article>
+                <img
+                  src="./img/svg/cloudflare-icon.svg"
+                  alt="Cloudflare logo"
+                />
+                <span>Cloudflare</span>
+              </article>
             </div>
           </div>
         </section>
-        <h2 id="work">My work</h2>
+        <h2>My work</h2>
         <section class="projects">
           <article>
             <img
@@ -345,7 +332,7 @@
           <article>
             <img src="./img/odin-book.webp" alt="A social media timeline" />
             <div class="project-description">
-              <h3>Odin Book</h3>
+              <h3>Odin-Book</h3>
               <div class="icons">
                 <a href="https://github.com/kyledinardi/odin-book-frontend">
                   <img
@@ -377,11 +364,11 @@
     </div>
     <div class="footer-wrap">
       <footer>
-        <div id="contact">
+        <div>
           <h2>Contact Me</h2>
           <p class="contact-message">
-            Give me a call, text, or email if you think I'm right for your
-            company. I'm ready to put my all into your project!
+            Send me an email if you think I'm right for your company. I'm ready
+            to put my all into your project!
           </p>
           <div class="email">
             <img
